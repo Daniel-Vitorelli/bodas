@@ -1,0 +1,66 @@
+:root {
+  --cream: #fdf6e3;
+  --cream-bright: #fffcf3;
+  --ink: #4a3b2a;
+  --ink-soft: #7a674f;
+  --gold: #c9a227;
+  --gold-deep: #a67c00;
+  --shadow: 0 24px 60px -18px rgba(166, 124, 0, 0.35);
+  --shadow-soft: 0 10px 30px -12px rgba(166, 124, 0, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: "Poppins", system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background-color: var(--cream);
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(201, 162, 39, 0.13), transparent 42%),
+    radial-gradient(circle at 85% 20%, rgba(201, 162, 39, 0.11), transparent 38%),
+    radial-gradient(circle at 50% 92%, rgba(201, 162, 39, 0.16), transparent 46%),
+    repeating-radial-gradient(circle at 50% 32%, rgba(201, 162, 39, 0.05) 0 1px, transparent 1px 34px),
+    repeating-radial-gradient(circle at 50% 32%, rgba(201, 162, 39, 0.03) 0 1px, transparent 1px 68px);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--cream-bright);
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+}
