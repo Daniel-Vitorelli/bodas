@@ -12,16 +12,16 @@ export const event = {
   fullDate: "Domingo, 10 de janeiro de 2027",
   time: "10h00",
   location: "Clube de Festas",
-  address: "Local a ser confirmado",
+  address: "R. Fausto Bini, 250 - Colinas",
   dressCode: "Traje a vontade",
-  whatsapp: "5518997770614",
-  phoneDisplay: "+55 (18) 99777-0614",
-  mapLink: "https://maps.google.com/?q=Av.+das+Flores+1234+Sao+Paulo",
+  whatsapp: "5518996043028",
+  phoneDisplay: "+55 (18) 99604-3028",
+  mapLink: "https://maps.app.goo.gl/wbKqNVbC35tDoW5S9",
   // Mostrar o cartão "Ver como chegar no mapa" na seção de confirmação?
   //   true  -> aparece
   //   false -> escondido (o endereço continua no campo `address`, e o
   //            link segue guardado em `mapLink` para quando quiser religar)
-  showMap: false,
+  showMap: true,
   // Foto do casal. Com `null` o quadro mostra o monograma "A · A".
   //
   // Opção 1 — arquivo em public/ (mais simples):
@@ -34,7 +34,7 @@ export const event = {
   // O quadro é retrato (proporção 3:3.6) e a imagem entra com
   // `object-fit: cover`, ou seja, é recortada pelo centro. Fotos em pé
   // (3:4 ou 2:3) aproveitam o enquadramento muito melhor que as deitadas.
-  photo: "/foto-casal.jpeg",
+  photo: "/foto-nova.jpeg",
   message: [
     "Há mais de meio século, uma história de amor começou a ser escrita. Cinquenta invernos, cinquenta primaveras, sempre de mãos dadas — o amor que plantamos cresceu, floresceu e hoje celebra o Jubileu de Ouro.",
     "Cada sorriso, cada cumplicidade e cada lembrança ganham ainda mais sentido quando compartilhados com quem amamos. Por isso, Antônio e Aparecida têm a honra de convidar você para celebrar 50 anos de casados.",
